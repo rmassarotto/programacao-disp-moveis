@@ -1,0 +1,16 @@
+1 - Sqlite é uma biblioteca OpenSoucer em linguagem C que implementa um banco de dados. Usado em sistemas que possuem certa simplicidade.
+
+2 - Segundo a documentação do android o SQLiteOpenHelper é uma casse de auxilio na criação de bancos de dados e seu gerenciamento.
+
+3 -
+
+4 - Segundo a documentação do Android, executa apenas uma declaração SQL que não seja ELECT/INSERT/UPDATE/DELETE (para tais existem funções específicas).
+Alguns exemplos de Metodos executados pelo execSQL:
+	* ALTER TABLE
+	* CREATE or DROP table / trigger / view / index / 		 virtual table
+	* REINDEX
+	* RELEASE
+	* SAVEPOINT
+	* PRAGMA that returns no data
+
+6 - Os cursores(Cursors) são o que contém o conjunto de resultados de uma consulta feita em um banco de dados no Android. A classe Cursor possui uma API que permite que um aplicativo leia (de maneira segura) as colunas que foram retornadas da consulta, além de iterar nas linhas do conjunto de resultados.
